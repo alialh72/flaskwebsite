@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<h1>Welcome habibi!</h1>
+	</head>
+
+	<body>
+		
+		<p>I am incredieble</p>
+		<p>But you {{red}}, are more incredible</p>
+		{% for x in range(5): %}
+			<p>you are {{red}}</p>
+
+			{% if x == 2 %}
+			<p>{{x}}</p>
+			{% endif %}
+		{% endfor %}
+
+		{% if red == "hallooo" %}
+		<p>haloo to you too</p>
+		{% endif %}
+
+
+	</body>
+</html>
